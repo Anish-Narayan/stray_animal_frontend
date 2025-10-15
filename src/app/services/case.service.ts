@@ -7,7 +7,7 @@ import { AuthService } from './auth.service';
   providedIn: 'root'
 })
 export class CaseService {
-  private apiUrl = 'http://localhost:5000/api/cases';
+  private apiUrl = 'https://stray-animal-backend-production.up.railway.app/api/cases';
 
   constructor(private http: HttpClient, private authService: AuthService) { }
 

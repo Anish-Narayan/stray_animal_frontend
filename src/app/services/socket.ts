@@ -8,7 +8,7 @@ import { io, Socket } from 'socket.io-client';
 // THE FIX: The "export" keyword is required here.
 export class SocketService {
   private socket: Socket;
-  private readonly serverUrl = 'http://localhost:5000'; // Your backend URL
+  private readonly serverUrl = 'https://stray-animal-backend-production.up.railway.app'; // Your backend URL
 
   constructor() {
     this.socket = io(this.serverUrl);

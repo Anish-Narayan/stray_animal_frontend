@@ -7,7 +7,7 @@ import { tap } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl = 'http://localhost:5000/api/auth'; // Your backend URL
+  private apiUrl = 'https://stray-animal-backend-production.up.railway.app/api/auth'; // Your backend URL
 
   constructor(private http: HttpClient) { }
 

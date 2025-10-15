@@ -7,7 +7,7 @@ import { AuthService } from './auth.service';
   providedIn: 'root'
 })
 export class UserService {
-  private apiUrl = 'http://localhost:5000/api/user';
+  private apiUrl = 'https://stray-animal-backend-production.up.railway.app/api/user';
 
   constructor(private http: HttpClient, private authService: AuthService) { }
 
